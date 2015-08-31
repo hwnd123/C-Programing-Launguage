@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-*��дһ�������븴�Ƶ�����ĳ��򣬲��ҽ����еĶ���ո���һ���ո����
+*编写一个将输入复制到输出的程序，并且将其中的多个空格用一个空格代替
 *
 */
 
@@ -20,7 +20,7 @@ int main()
 			
 			if (inspace == 0)
 			{
-				putchar('x');
+				putchar(' ');
 				inspace = 1;
 
 			}
